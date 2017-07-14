@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-<h1>BUCK-O-FIVE!!!!</h1>
-
 		<section id="content">
 			<div class="promo promo-full">
 				<div class="container clearfix">
