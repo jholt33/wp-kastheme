@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<h1>Theme Test 1</h1>
+
 		<section id="content">
 			<div class="promo promo-full">
 				<div class="container clearfix">
