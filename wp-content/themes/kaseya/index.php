@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+<p>
+	Is this live?
+</p>
+
 		<section id="content">
 			<div class="promo promo-full">
 				<div class="container clearfix">
