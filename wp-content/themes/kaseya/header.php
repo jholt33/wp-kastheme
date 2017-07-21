@@ -3,17 +3,25 @@
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="author" content="SemiColonWeb" />
 
-	<!-- Stylesheets
-	============================================= -->
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+
+	<!-- styles that come with canvas -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" type="text/css" />
+
+	<?php wp_head(); ?>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
 	<!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![endif]-->
 
-	<?php wp_head(); ?>
+
+	<title>Canvas | The Multi-Purpose HTML5 Template</title>
 
 </head>
 
@@ -27,7 +35,7 @@
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header" style="height:500px;">
+		<header id="header" class="full-header">
 
 			<div id="header-wrap">
 

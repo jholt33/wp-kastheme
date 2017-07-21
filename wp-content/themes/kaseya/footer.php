@@ -7,7 +7,7 @@
     <div class="footer-widgets-wrap clearfix">
       <div class="col_two_third">
         <div class="widget clearfix">
-          <img src="<?php bloginfo('template_directory'); ?>/images/kaseya-footer-logo.svg" alt="" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #43596e; width: 130px">
+          <img src="<?php bloginfo('template_directory');?>/images/kaseya-footer-logo.svg" alt="" class="pull-left" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #43596e; width: 130px; margin-right: 20px;">
           <div class="top-footer-text">
             Providing software solutions that take the complexity out of IT management, because we know the success of your business depends upon managing IT more effectively, efficiently and securely.
           </div>
@@ -60,7 +60,7 @@
           </div>
         </div>
       </div>
-      <div class="col_one_third col_last" style="background: url('images/world-map.png') no-repeat center bottom; background-size: 100%;">
+      <div class="col_one_third col_last" style="background: url('<?php bloginfo('template_directory');?>/images/world-map.png') no-repeat center bottom; background-size: 100%;">
         <div class="widget clearfix" style="margin-bottom: 80px;">
           <div class="row">
             <div class="col-md-6 bottommargin-sm">
@@ -116,7 +116,6 @@
     </div>
   </div><!-- #copyrights end -->
 </footer><!-- #footer end -->
-
 
 </div><!-- #wrapper end -->
 
