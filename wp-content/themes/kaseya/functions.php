@@ -2,7 +2,7 @@
 
 function theme_styles() {
 
-  wp_enqueue_style( 'canvas', get_template_directory_uri() . '/css/style.css');
+  wp_enqueue_style( 'base-css', get_template_directory_uri() . '/css/style.css');
   wp_enqueue_style( 'theme', get_template_directory_uri() . '/style.css');
 
 }

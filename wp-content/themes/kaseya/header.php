@@ -12,8 +12,6 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" type="text/css" />
 
-	<?php wp_head(); ?>
-
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!--[if lt IE 9]>
@@ -22,6 +20,8 @@
 
 
 	<title>Canvas | The Multi-Purpose HTML5 Template</title>
+
+<?php wp_head(); ?>
 
 </head>
 
@@ -62,5 +62,8 @@
 					 	 	*/ ?>
 
 							<?php get_template_part( 'nav' ); ?>
+       </div>
+
+			</div>
 
 		</header><!-- #header end -->
