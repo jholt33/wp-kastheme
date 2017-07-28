@@ -1,0 +1,174 @@
+/*-----------------------------------------------------------------------------------
+	typography.scss
+-----------------------------------------------------------------------------------*/
+dd,
+dl,
+dt,
+li,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+::selection {
+	background: $theme-color;
+	color: #FFF;
+	text-shadow: none;
+}
+
+::-moz-selection {
+	background: $theme-color;
+	/* Firefox */
+	color: #FFF;
+	text-shadow: none;
+}
+
+::-webkit-selection {
+	background: $theme-color;
+	/* Safari */
+	color: #FFF;
+	text-shadow: none;
+}
+
+:active,
+:focus {
+	outline: none !important;
+}
+/* ----------------------------------------------------------------
+	Typography
+-----------------------------------------------------------------*/
+body {
+	line-height: $line-height-base;
+	color: $kaseya-black;
+	font-size: $font-size-base;
+	font-family: $body-font;
+}
+
+a {
+	text-decoration: none !important;
+	color: $theme-color;
+
+	&:hover {
+		color: #222;
+	}
+
+	img {
+		border: none;
+	}
+}
+
+img {
+	max-width: 100%;
+}
+
+iframe {
+	border: none !important;
+}
+/* ----------------------------------------------------------------
+	Basic Layout Styles
+-----------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $kaseya-black;
+	font-weight: 600;
+	line-height: $line-height-base;
+	margin: 0 0 30px;
+	font-family: $heading-font;
+}
+
+h5,
+h6 {
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: $font-size-h1;
+	text-transform: $heading-text-transform;
+}
+
+h2 {
+	font-size: $font-size-h2;
+	text-transform: $heading-text-transform;
+}
+
+h3 {
+	font-size: $font-size-h3;
+	text-transform: $heading-text-transform;
+}
+
+h4 {
+	font-size: $font-size-h4;
+	text-transform: $heading-text-transform;
+}
+
+h5 {
+	font-size: $font-size-h5;
+	text-transform: $heading-text-transform;
+}
+
+h6 {
+	font-size: $font-size-h6;
+	text-transform: $heading-text-transform;
+}
+
+h4 {
+	font-weight: 600;
+}
+
+h5,
+h6 {
+	font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	> span:not(.nocolor) {
+		color: $theme-color;
+	}
+}
+
+address,
+blockquote,
+dd,
+dl,
+fieldset,
+form,
+ol,
+p,
+pre,
+table,
+ul {
+	margin-bottom: 30px;
+}
+
+small {
+	font-family: $body-font;
+}
+
+#wrapper {
+	position: relative;
+	float: none;
+	width: 1220px;
+	margin: 0 auto;
+	background-color: #FFF;
+	@include box-shadow(0 0 10px rgba(0,0,0,0.1));
+}

@@ -1,189 +1,200 @@
 <?php get_header(); ?>
 
-<!-- Related Portfolio Items
-					============================================= -->
-					<h4>Related Projects:</h4>
+<section id="slider" style="background: url(<?php bloginfo('template_directory');?>/images/landing/landing2.jpg) center; overflow: visible;">
 
-					<div id="related-portfolio" class="owl-carousel portfolio-carousel carousel-widget" data-margin="30" data-nav="false" data-autoplay="5000" data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-lg="4">
+		<div class="container">
 
-						<div class="oc-item">
-							<div class="iportfolio">
-								<div class="portfolio-image">
-									<a href="portfolio-single.html">
-										<img src="<?php bloginfo('template_directory');?>/images/portfolio/4/1.jpg" alt="Open Imagination">
-									</a>
-									<div class="portfolio-overlay">
-										<a href="<?php bloginfo('template_directory');?>/images/portfolio/full/1.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single.html">Open Imagination</a></h3>
-									<span><a href="#">Media</a>, <a href="#">Icons</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="iportfolio">
-								<div class="portfolio-image">
-									<a href="portfolio-single.html">
-										<img src="<?php bloginfo('template_directory');?>/images/portfolio/4/2.jpg" alt="Locked Steel Gate">
-									</a>
-									<div class="portfolio-overlay">
-										<a href="<?php bloginfo('template_directory');?>/images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single.html">Locked Steel Gate</a></h3>
-									<span><a href="#">Illustrations</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="iportfolio">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="<?php bloginfo('template_directory');?>/images/portfolio/4/3.jpg" alt="Mac Sunglasses">
-									</a>
-									<div class="portfolio-overlay">
-										<a href="http://vimeo.com/89396394" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-										<a href="portfolio-single-video.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-video.html">Mac Sunglasses</a></h3>
-									<span><a href="#">Graphics</a>, <a href="#">UI Elements</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="iportfolio">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="<?php bloginfo('template_directory');?>/images/portfolio/4/4.jpg" alt="Mac Sunglasses">
-									</a>
-									<div class="portfolio-overlay" data-lightbox="gallery">
-										<a href="<?php bloginfo('template_directory');?>/images/portfolio/full/4.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-										<a href="<?php bloginfo('template_directory');?>/images/portfolio/full/4-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
-										<a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-gallery.html">Morning Dew</a></h3>
-									<span><a href="#"><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="iportfolio">
-								<div class="portfolio-image">
-									<a href="portfolio-single.html">
-										<img src="<?php bloginfo('template_directory');?>/images/portfolio/4/5.jpg" alt="Console Activity">
-									</a>
-									<div class="portfolio-overlay">
-										<a href="<?php bloginfo('template_directory');?>/images/portfolio/full/5.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single.html">Console Activity</a></h3>
-									<span><a href="#">UI Elements</a>, <a href="#">Media</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="iportfolio">
-								<div class="portfolio-image">
-									<a href="portfolio-single-gallery.html">
-										<img src="<?php bloginfo('template_directory');?>/images/portfolio/4/6.jpg" alt="Shake It!">
-									</a>
-									<div class="portfolio-overlay" data-lightbox="gallery">
-										<a href="<?php bloginfo('template_directory');?>/images/portfolio/full/6.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-										<a href="<?php bloginfo('template_directory');?>/images/portfolio/full/6-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
-										<a href="<?php bloginfo('template_directory');?>/images/portfolio/full/6-2.jpg" class="hidden" data-lightbox="gallery-item"></a>
-										<a href="<?php bloginfo('template_directory');?>/images/portfolio/full/6-3.jpg" class="hidden" data-lightbox="gallery-item"></a>
-										<a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-gallery.html">Shake It!</a></h3>
-									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="iportfolio">
-								<div class="portfolio-image">
-									<a href="portfolio-single-video.html">
-										<img src="<?php bloginfo('template_directory');?>/images/portfolio/4/7.jpg" alt="Backpack Contents">
-									</a>
-									<div class="portfolio-overlay">
-										<a href="http://www.youtube.com/watch?v=kuceVNBTJio" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-										<a href="portfolio-single-video.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-video.html">Backpack Contents</a></h3>
-									<span><a href="#">UI Elements</a>, <a href="#">Icons</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="iportfolio">
-								<div class="portfolio-image">
-									<a href="portfolio-single.html">
-										<img src="<?php bloginfo('template_directory');?>/images/portfolio/4/8.jpg" alt="Sunset Bulb Glow">
-									</a>
-									<div class="portfolio-overlay">
-										<a href="<?php bloginfo('template_directory');?>/images/portfolio/full/8.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single.html">Sunset Bulb Glow</a></h3>
-									<span><a href="#">Graphics</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="iportfolio">
-								<div class="portfolio-image">
-									<a href="portfolio-single.html">
-										<img src="<?php bloginfo('template_directory');?>/images/portfolio/4/9.jpg" alt="Bridge Side">
-									</a>
-									<div class="portfolio-overlay" data-lightbox="gallery">
-										<a href="<?php bloginfo('template_directory');?>/images/portfolio/full/9.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-										<a href="<?php bloginfo('template_directory');?>/images/portfolio/full/9-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
-										<a href="<?php bloginfo('template_directory');?>/images/portfolio/full/9-2.jpg" class="hidden" data-lightbox="gallery-item"></a>
-										<a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single.html">Bridge Side</a></h3>
-									<span><a href="#">Illustrations</a>, <a href="#">Icons</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="iportfolio">
-								<div class="portfolio-image">
-									<a href="portfolio-single-video.html">
-										<img src="<?php bloginfo('template_directory');?>/images/portfolio/4/10.jpg" alt="Study Table">
-									</a>
-									<div class="portfolio-overlay">
-										<a href="http://vimeo.com/91973305" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-										<a href="portfolio-single-video.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-video.html">Study Table</a></h3>
-									<span><a href="#">Graphics</a>, <a href="#">Media</a></span>
-								</div>
-							</div>
-						</div>
+			<div class="col-md-6 kas-contact">
 
-					</div><!-- .portfolio-carousel end -->
+				<div class="orange-top-form">
+					  <div class="col-md-3">
+							<i class="fa fa-paper-plane-o fa-5x" aria-hidden="true" style="font-size: 7em;"></i>
+						</div>
+	          <div class="col-md-9">
+							<h1>GET IN TOUCH!</h1>
+							<p>Please provide your contact information to receive your complimentary resource.</p>
+					  </div>
+						<div class="bubble"></div>
+					<div class="clearfix"></div>
+
+				</div>
+
+				<form id="contact" name="contact-form" class="kas-contact-form" action="#" method="post">
+
+					<div class="col_half">
+						<input type="text" name="template-landing5-name" class="form-control required input-lg not-dark" value="" placeholder="Your Name*">
+					</div>
+					<div class="col_half col_last">
+						<input type="email" name="template-landing5-email" class="form-control required input-lg not-dark" value="" placeholder="Your Email*">
+					</div>
+					<div class="col_half">
+						<input type="password" name="template-landing5-password" class="form-control required input-lg not-dark" value="" placeholder="Choose Password*">
+					</div>
+					<div class="col_half col_last">
+						<input type="password" name="template-landing5-repassword" class="form-control required input-lg not-dark" value="" placeholder="Confirm Password*">
+					</div>
+					<div class="col_half">
+						<input type="password" name="template-landing5-repassword" class="form-control required input-lg not-dark" value="" placeholder="Confirm Password*">
+					</div>
+					<div class="col_half col_last">
+						<input type="password" name="template-landing5-repassword" class="form-control required input-lg not-dark" value="" placeholder="Confirm Password*">
+					</div>
+					<div class="col_full nobottommargin">
+						<div class="checkbox">
+            <label style="font-size: 2em">
+                <input type="checkbox" value="" checked>
+                <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </label>
+						<p>*Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+			    </div>
+					<div class="col_full nobottommargin">
+						<button class="button button-3d button-orange btn-block nomargin" value="submit" type="submit" style="">REGISTER NOW</button>
+					</div>
+				</form>
+
+			</div>
+		</div>
+
+	</div>
+
+	</section>
+
+		<!-- Content -->
+	<section id="content" style="overflow: visible;">
+
+		<div class="content-wrap resc">
+
+				<div class="container clearfix">
+
+					<div class="heading-block">
+						<h2>This is a Heading Block</h2>
+						<span>This is the Sub Title of the Heading Block</span>
+					</div>
+
+					<p>Millennium Development Goals, The Elders crisis situation cross-cultural time of extraordinary change minority. Long-term progress, humanitarian medicine capacity building free expression innovate. Natural resources criteria respect planned giving small-scale farmers.</p>
+
+					<a href="#" class="button button-3d button-green">Register</a>
+
+					<ul class="header-extras">
+						<li>
+							<i class="i-medium i-circled i-bordered icon-thumbs-up2 nomargin"></i>
+							<div class="he-text">
+								Original Brands
+								<span>100% Guaranteed</span>
+							</div>
+						</li>
+						<li>
+							<i class="i-medium i-circled i-bordered icon-truck2 nomargin"></i>
+							<div class="he-text">
+								Free Shipping
+								<span>for $20 or more</span>
+							</div>
+						</li>
+						<li>
+							<i class="i-medium i-circled i-bordered icon-undo nomargin"></i>
+							<div class="he-text">
+								30-Day Returns
+								<span>Completely Free</span>
+							</div>
+						</li>
+					</ul>
+
+					<ul id="myTab" class="nav nav-tabs boot-tabs topmargin">
+						<li class="active"><a href="#usa" data-toggle="tab">USA and Canada</a></li>
+						<li><a href="#europe" data-toggle="tab">Europe</a></li>
+						<li><a href="#asia" data-toggle="tab">Asia Pacific</a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane fade in active" id="usa">
+						<div class="col-sm-6 col-md-3">
+							<div class="location-office"><h4 id="new-york-city"><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</h4><p class="address">16 W 22nd Street, Suite 2R<br />
+							New York, NY 10010-5803<br />
+							USA - Headquarters</p><p class="map"> <a href="https://www.google.com/maps/place/16+W+22nd+St+%232r,+New+York,+NY+10010/@40.7409987,-73.9916098,19z/data=!4m7!1m4!3m3!1s0x89c259a386c20bd5:0x9846c744fdb66cac!2s16+W+22nd+St+%232r,+New+York,+NY+10010!3b1!3m1!1s0x89c259a386c20bd5:0x9846c744fdb66cac" target="_blank">Locate on Google Maps <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p></div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="location-office"><h4 id="new-york-city"><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</h4><p class="address">16 W 22nd Street, Suite 2R<br />
+							New York, NY 10010-5803<br />
+							USA - Headquarters</p><p class="map"> <a href="https://www.google.com/maps/place/16+W+22nd+St+%232r,+New+York,+NY+10010/@40.7409987,-73.9916098,19z/data=!4m7!1m4!3m3!1s0x89c259a386c20bd5:0x9846c744fdb66cac!2s16+W+22nd+St+%232r,+New+York,+NY+10010!3b1!3m1!1s0x89c259a386c20bd5:0x9846c744fdb66cac" target="_blank">Locate on Google Maps <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p></div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="location-office"><h4 id="new-york-city"><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</h4><p class="address">16 W 22nd Street, Suite 2R<br />
+							New York, NY 10010-5803<br />
+							USA - Headquarters</p><p class="map"> <a href="https://www.google.com/maps/place/16+W+22nd+St+%232r,+New+York,+NY+10010/@40.7409987,-73.9916098,19z/data=!4m7!1m4!3m3!1s0x89c259a386c20bd5:0x9846c744fdb66cac!2s16+W+22nd+St+%232r,+New+York,+NY+10010!3b1!3m1!1s0x89c259a386c20bd5:0x9846c744fdb66cac" target="_blank">Locate on Google Maps <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p></div>
+						</div>
+						<div class="col-sm-6 col-md-3 col_last">
+							<div class="location-office"><h4 id="new-york-city"><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</h4><p class="address">16 W 22nd Street, Suite 2R<br />
+							New York, NY 10010-5803<br />
+							USA - Headquarters</p><p class="map"> <a href="https://www.google.com/maps/place/16+W+22nd+St+%232r,+New+York,+NY+10010/@40.7409987,-73.9916098,19z/data=!4m7!1m4!3m3!1s0x89c259a386c20bd5:0x9846c744fdb66cac!2s16+W+22nd+St+%232r,+New+York,+NY+10010!3b1!3m1!1s0x89c259a386c20bd5:0x9846c744fdb66cac" target="_blank">Locate on Google Maps <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p></div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="location-office"><h4 id="new-york-city"><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</h4><p class="address">16 W 22nd Street, Suite 2R<br />
+							New York, NY 10010-5803<br />
+							USA - Headquarters</p><p class="map"> <a href="https://www.google.com/maps/place/16+W+22nd+St+%232r,+New+York,+NY+10010/@40.7409987,-73.9916098,19z/data=!4m7!1m4!3m3!1s0x89c259a386c20bd5:0x9846c744fdb66cac!2s16+W+22nd+St+%232r,+New+York,+NY+10010!3b1!3m1!1s0x89c259a386c20bd5:0x9846c744fdb66cac" target="_blank">Locate on Google Maps <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p></div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="location-office"><h4 id="new-york-city"><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</h4><p class="address">16 W 22nd Street, Suite 2R<br />
+							New York, NY 10010-5803<br />
+							USA - Headquarters</p><p class="map"> <a href="https://www.google.com/maps/place/16+W+22nd+St+%232r,+New+York,+NY+10010/@40.7409987,-73.9916098,19z/data=!4m7!1m4!3m3!1s0x89c259a386c20bd5:0x9846c744fdb66cac!2s16+W+22nd+St+%232r,+New+York,+NY+10010!3b1!3m1!1s0x89c259a386c20bd5:0x9846c744fdb66cac" target="_blank">Locate on Google Maps <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p></div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="location-office"><h4 id="new-york-city"><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</h4><p class="address">16 W 22nd Street, Suite 2R<br />
+							New York, NY 10010-5803<br />
+							USA - Headquarters</p><p class="map"> <a href="https://www.google.com/maps/place/16+W+22nd+St+%232r,+New+York,+NY+10010/@40.7409987,-73.9916098,19z/data=!4m7!1m4!3m3!1s0x89c259a386c20bd5:0x9846c744fdb66cac!2s16+W+22nd+St+%232r,+New+York,+NY+10010!3b1!3m1!1s0x89c259a386c20bd5:0x9846c744fdb66cac" target="_blank">Locate on Google Maps <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p></div>
+						</div>
+						<div class="col-sm-6 col-md-3 col_last">
+							<div class="location-office"><h4 id="new-york-city"><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</h4><p class="address">16 W 22nd Street, Suite 2R<br />
+							New York, NY 10010-5803<br />
+							USA - Headquarters</p><p class="map"> <a href="https://www.google.com/maps/place/16+W+22nd+St+%232r,+New+York,+NY+10010/@40.7409987,-73.9916098,19z/data=!4m7!1m4!3m3!1s0x89c259a386c20bd5:0x9846c744fdb66cac!2s16+W+22nd+St+%232r,+New+York,+NY+10010!3b1!3m1!1s0x89c259a386c20bd5:0x9846c744fdb66cac" target="_blank">Locate on Google Maps <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p></div>
+						</div>
+						</div>
+						<div class="tab-pane fade" id="europe">
+							<div class="col-sm-6 col-md-3">
+								<div class="location-office"><h4 id="new-york-city"><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</h4><p class="address">16 W 22nd Street, Suite 2R<br />
+								New York, NY 10010-5803<br />
+								USA - Headquarters</p><p class="map"> <a href="https://www.google.com/maps/place/16+W+22nd+St+%232r,+New+York,+NY+10010/@40.7409987,-73.9916098,19z/data=!4m7!1m4!3m3!1s0x89c259a386c20bd5:0x9846c744fdb66cac!2s16+W+22nd+St+%232r,+New+York,+NY+10010!3b1!3m1!1s0x89c259a386c20bd5:0x9846c744fdb66cac" target="_blank">Locate on Google Maps <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p></div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="location-office"><h4 id="new-york-city"><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</h4><p class="address">16 W 22nd Street, Suite 2R<br />
+								New York, NY 10010-5803<br />
+								USA - Headquarters</p><p class="map"> <a href="https://www.google.com/maps/place/16+W+22nd+St+%232r,+New+York,+NY+10010/@40.7409987,-73.9916098,19z/data=!4m7!1m4!3m3!1s0x89c259a386c20bd5:0x9846c744fdb66cac!2s16+W+22nd+St+%232r,+New+York,+NY+10010!3b1!3m1!1s0x89c259a386c20bd5:0x9846c744fdb66cac" target="_blank">Locate on Google Maps <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p></div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="location-office"><h4 id="new-york-city"><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</h4><p class="address">16 W 22nd Street, Suite 2R<br />
+								New York, NY 10010-5803<br />
+								USA - Headquarters</p><p class="map"> <a href="https://www.google.com/maps/place/16+W+22nd+St+%232r,+New+York,+NY+10010/@40.7409987,-73.9916098,19z/data=!4m7!1m4!3m3!1s0x89c259a386c20bd5:0x9846c744fdb66cac!2s16+W+22nd+St+%232r,+New+York,+NY+10010!3b1!3m1!1s0x89c259a386c20bd5:0x9846c744fdb66cac" target="_blank">Locate on Google Maps <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p></div>
+							</div>
+							<div class="col-sm-6 col-md-3 col_last">
+								<div class="location-office"><h4 id="new-york-city"><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</h4><p class="address">16 W 22nd Street, Suite 2R<br />
+								New York, NY 10010-5803<br />
+								USA - Headquarters</p><p class="map"> <a href="https://www.google.com/maps/place/16+W+22nd+St+%232r,+New+York,+NY+10010/@40.7409987,-73.9916098,19z/data=!4m7!1m4!3m3!1s0x89c259a386c20bd5:0x9846c744fdb66cac!2s16+W+22nd+St+%232r,+New+York,+NY+10010!3b1!3m1!1s0x89c259a386c20bd5:0x9846c744fdb66cac" target="_blank">Locate on Google Maps <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p></div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="asia">
+							<div class="col-sm-6 col-md-3">
+								<div class="location-office"><h4 id="new-york-city"><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</h4><p class="address">16 W 22nd Street, Suite 2R<br />
+								New York, NY 10010-5803<br />
+								USA - Headquarters</p><p class="map"> <a href="https://www.google.com/maps/place/16+W+22nd+St+%232r,+New+York,+NY+10010/@40.7409987,-73.9916098,19z/data=!4m7!1m4!3m3!1s0x89c259a386c20bd5:0x9846c744fdb66cac!2s16+W+22nd+St+%232r,+New+York,+NY+10010!3b1!3m1!1s0x89c259a386c20bd5:0x9846c744fdb66cac" target="_blank">Locate on Google Maps <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p></div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="location-office"><h4 id="new-york-city"><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</h4><p class="address">16 W 22nd Street, Suite 2R<br />
+								New York, NY 10010-5803<br />
+								USA - Headquarters</p><p class="map"> <a href="https://www.google.com/maps/place/16+W+22nd+St+%232r,+New+York,+NY+10010/@40.7409987,-73.9916098,19z/data=!4m7!1m4!3m3!1s0x89c259a386c20bd5:0x9846c744fdb66cac!2s16+W+22nd+St+%232r,+New+York,+NY+10010!3b1!3m1!1s0x89c259a386c20bd5:0x9846c744fdb66cac" target="_blank">Locate on Google Maps <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p></div>
+							</div>
+							<div class="col-sm-6 col-md-3 col_last">
+								<div class="location-office"><h4 id="new-york-city"><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</h4><p class="address">16 W 22nd Street, Suite 2R<br />
+								New York, NY 10010-5803<br />
+								USA - Headquarters</p><p class="map"> <a href="https://www.google.com/maps/place/16+W+22nd+St+%232r,+New+York,+NY+10010/@40.7409987,-73.9916098,19z/data=!4m7!1m4!3m3!1s0x89c259a386c20bd5:0x9846c744fdb66cac!2s16+W+22nd+St+%232r,+New+York,+NY+10010!3b1!3m1!1s0x89c259a386c20bd5:0x9846c744fdb66cac" target="_blank">Locate on Google Maps <i class="fa fa-location-arrow" aria-hidden="true"></i></a></p></div>
+							</div>
+						</div>
+					</div>
+
+			  </div>
+
+		</div>
+
+	</section><!-- #content end -->
 
 
 <?php get_footer(); ?>

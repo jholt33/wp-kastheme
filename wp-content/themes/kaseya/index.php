@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <!-- Hero -->
 <section id="slider" class="slider-parallax full-screen" style="background: #2E3B4C;">
 	<div class="slider-parallax-inner">
@@ -30,8 +29,6 @@
 
 	</div>
 </section>
-
-
 
 <!-- Content -->
 <section id="content">
@@ -133,8 +130,6 @@
 			</div>
 		</div>
 
-
-
 		<div class="container clearfix">
 			<div class="col_three_fifth topmargin-sm bottommargin">
 				<img data-animate="fadeInLeftBig" src="<?php bloginfo('template_directory');?>/images/services/imac.png" alt="Imac" class="center-block fadeInLeftBig animated">
@@ -164,7 +159,6 @@
 				</div>
 			</div>
 		</div>
-
 
 		<div class="section">
 			<div class="container clear-bottommargin clearfix">
@@ -240,8 +234,6 @@
 			</div>
 		</div>
 
-
-
 		<div class="container bottommargin-lg">
 			<div class="col_one_third topmargin nobottommargin">
 				<h3>Short Overview.</h3>
@@ -265,8 +257,6 @@
 		</div>
 		<div class="clear"></div>
 
-
-
 		<div class="promo promo-dark promo-full promo-uppercase bottommargin">
 			<div class="container clearfix">
 				<h3>Call us today at <span>+91.22.57412541</span> or Email us at <span>support@canvas.com</span></h3>
@@ -274,8 +264,6 @@
 				<a href="#" class="button button-xlarge button-rounded">Start Now</a>
 			</div>
 		</div>
-
-
 
 		<div class="container bottommargin-lg topmargin-lg">
 			<div class="fancy-title title-dotted-border">
