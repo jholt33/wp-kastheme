@@ -12,3 +12,13 @@ Text Domain: kaseya
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+#top-bar {
+    position: relative;
+    border-bottom: none;
+    height: 45px;
+    line-height: 44px;
+    font-size: 13px;
+    background-color: #f49c14;
+    color: #8ba4bc;
+}
