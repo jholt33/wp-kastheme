@@ -38,7 +38,7 @@
 		<div class="container clearfix">
 			<div class="row topmargin bottommargin-sm">
 				<div class="heading-block center">
-					<h2>Even more Feature Rich</h2>
+					<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit Even more Feature Rich</h2>
 					<span class="divcenter">Philanthropy convener livelihoods, initiative end hunger gender rights local. John Lennon storytelling; advocate, altruism impact catalyst.</span>
 				</div>
 				<div class="col-md-4 col-sm-6 bottommargin">
